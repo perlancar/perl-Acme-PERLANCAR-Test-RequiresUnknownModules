@@ -14,4 +14,6 @@ use warnings;
 =head1 DESCRIPTION
 
 This distribution is created to test tools like L<App::lcpan>. It contains
-prerequisites to modules that are not on CPAN.
+prerequisites to modules that are not on CPAN. It should not be installable by
+most CPAN clients (due to unresolvable dependencies) and should produce failure
+reports from CPAN Testers.
